@@ -11,6 +11,7 @@ spec:
       labels:
         app: myapp
     spec:
+      replicas: 2
       containers:
         - name: myapp
           image: gcr.io/google-samples/node-hello:1.0
